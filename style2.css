@@ -1,0 +1,144 @@
+body{
+            margin: 0;
+            padding: 0;
+            background-image: url(1392050294_preview_VK4dgaY.jpg);
+        }
+.center-block {
+             width: 700px; 
+            height: 100%px; 
+            background-color: #a6a6a6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+ul{
+		list-style: none;
+		
+			}
+.menu {
+			list-style: none;
+			margin: 20;
+			padding-left: 0;
+			display: inline;
+			color: white;
+			text-decoration:none;
+			background-color: #a6a6a6;
+		}
+		.oo{
+						display: inline;
+						padding:15px;
+						color: white;
+		}
+		li{
+		margin:15px;
+		
+		}
+		.stoh{
+		width:270px;
+		height:350px;
+		}
+		.sto{
+		width:370px;
+		height:450px;
+		}
+		.gh{
+		width:270px;
+		height:350px;
+		}
+			.Kira{
+		width:400px;
+		height:350px;
+		}
+			.sex{
+		width:400px;
+		height:450px;
+		}
+			.metalica{
+		width:400px;
+		height:450px;
+		}
+			.ip{
+		width:300px;
+		height:400px;
+		}
+			.gogo{
+		width:300px;
+		height:400px;
+		}
+				.Jesus{
+		width:300px;
+		height:400px;
+		}
+				.Dio{
+		width:500px;
+		height:400px;
+		}
+				.Killer{
+		width:400px;
+		height:400px;
+		}
+				.Toru{
+		width:300px;
+		height:550px;
+		}
+       .background {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            width: 100%;
+        }
+        .container {
+            background-color: #a6a6a6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+		      .style-category {
+            background-color: #fff;
+            color: #000;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+		a {
+text-decoration: none;
+font-family: Courier New;
+color: black;
+padding:10px 20px;
+font-size: 17px;
+
+}
+@media screen and (max-width: 500px){
+				   .container {
+            background-color: #a6a6a6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            width: 400px;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+		       .menu {
+            list-style: none;
+            margin: 10px auto;
+            padding: 0;
+            background-color: #a6a6a6;
+            display: inline;
+            justify-content: center;
+            max-width: 100px;
+        }
+		.center-block {
+             width: 340px; 
+            height: 100%px; 
+            background-color: #a6a6a6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+				}
+				 

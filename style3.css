@@ -1,0 +1,175 @@
+body {
+   font-family: Arial, sans-serif;
+   background-image: url(1392050294_preview_VK4dgaY.jpg);
+   background-color: #222;
+   color: #fff;
+ 
+}
+
+.background {
+    display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding: 20px;
+background: url('background-image.jpg') no-repeat center center/cover;
+width: 100%;
+}
+
+.container {
+background-color: #a6a6a6;
+    padding: 20px;
+border-radius: 10px;
+    
+   
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+    width: 100%;
+box-sizing: border-box;
+    margin: 0 auto; 
+}
+
+header {
+    background-color: #333;
+color: #fff;
+    padding: 20px;
+text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+
+}
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+.stand-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+justify-content: center;
+}
+
+.stand {
+    background-color: #fff;
+color: #000;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+width: 200px;
+height: 250px;
+text-align: center;
+    padding: 10px;
+}
+.stand img {
+max-width: 100%;
+    
+ 
+border-radius: 8px;
+}
+
+.description {
+    padding: 15px;
+background-color: #fff;
+color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.menu {
+list-style: none;
+    margin: 20px auto; 
+    padding: 0;
+
+background-color: #a6a6a6;
+    display: flex; 
+justify-content: center;
+    gap: 15px;
+max-width: 900px; 
+}
+
+.menu li {
+display: inline-block;
+    padding: 10px 15px;
+    color: white;
+text-decoration: none;
+border-radius: 5px;
+}
+.Star{
+width: 200px;
+height: 200px;
+}
+.World{
+width: 200px;
+height: 200px;
+}
+.Diamond{
+width: 200px;
+height: 200px;
+}
+.standa-container {
+    display: flex; /* Вирівнює елементи в один рядок */
+
+justify-content: center; /* Центрує їх по горизонталі */
+    gap: 20px; /* Додає відступ між елементами */
+    margin-top: 20px; /* Відступ зверху */
+}
+
+.standa {
+    background-color: #fff;
+    
+   
+color: #000;
+    border: 1px solid #ccc;
+    
+    
+
+ 
+border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.standa img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+a {
+text-decoration: none;
+font-family: Courier New;
+color: black;
+padding:10px 20px;
+font-size: 17px;
+
+}
+@media screen and (max-width: 500px){
+				   .container {
+            background-color: #a6a6a6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            width: 400px;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+		       .menu {
+            list-style: none;
+            margin: 10px auto;
+            padding: 0;
+            background-color: #a6a6a6;
+            display: inline;
+            justify-content: center;
+            max-width: 100px;
+        }
+		.center-block {
+             width: 340px; 
+            height: 100%px; 
+            background-color: #a6a6a6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+				}
+				 
